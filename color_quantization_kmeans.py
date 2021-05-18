@@ -10,7 +10,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread(r"C:\Users\shriya-student\Documents\machinelearning\messi.jpg")
+img = cv2.imread("messi.jpg")
 #Insert your own address above.
 Z = img.reshape((-1,3)) 
 #Making it 3D shape. -
